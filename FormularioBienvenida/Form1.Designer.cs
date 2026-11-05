@@ -35,12 +35,13 @@
             btnAceptar = new Button();
             lblResultado = new Label();
             btnClean = new Button();
+            lblCurso = new Label();
             SuspendLayout();
             // 
             // lblNombre
             // 
             lblNombre.AutoSize = true;
-            lblNombre.Location = new Point(196, 69);
+            lblNombre.Location = new Point(196, 99);
             lblNombre.Name = "lblNombre";
             lblNombre.Size = new Size(54, 15);
             lblNombre.TabIndex = 0;
@@ -48,7 +49,7 @@
             // 
             // txtNombre
             // 
-            txtNombre.Location = new Point(267, 66);
+            txtNombre.Location = new Point(267, 96);
             txtNombre.Name = "txtNombre";
             txtNombre.Size = new Size(100, 23);
             txtNombre.TabIndex = 1;
@@ -56,7 +57,7 @@
             // lblEdad
             // 
             lblEdad.AutoSize = true;
-            lblEdad.Location = new Point(196, 131);
+            lblEdad.Location = new Point(196, 161);
             lblEdad.Name = "lblEdad";
             lblEdad.Size = new Size(36, 15);
             lblEdad.TabIndex = 2;
@@ -64,14 +65,14 @@
             // 
             // txtEdad
             // 
-            txtEdad.Location = new Point(267, 128);
+            txtEdad.Location = new Point(267, 158);
             txtEdad.Name = "txtEdad";
             txtEdad.Size = new Size(100, 23);
             txtEdad.TabIndex = 3;
             // 
             // btnAceptar
             // 
-            btnAceptar.Location = new Point(278, 198);
+            btnAceptar.Location = new Point(278, 228);
             btnAceptar.Name = "btnAceptar";
             btnAceptar.Size = new Size(75, 23);
             btnAceptar.TabIndex = 4;
@@ -89,7 +90,7 @@
             // 
             // btnClean
             // 
-            btnClean.Location = new Point(267, 169);
+            btnClean.Location = new Point(267, 199);
             btnClean.Name = "btnClean";
             btnClean.Size = new Size(97, 23);
             btnClean.TabIndex = 6;
@@ -97,11 +98,23 @@
             btnClean.UseVisualStyleBackColor = true;
             btnClean.Click += button1_Click;
             // 
+            // lblCurso
+            // 
+            lblCurso.AutoSize = true;
+            lblCurso.Font = new Font("Segoe UI", 18F, FontStyle.Bold);
+            lblCurso.Location = new Point(140, 26);
+            lblCurso.Name = "lblCurso";
+            lblCurso.Size = new Size(368, 32);
+            lblCurso.TabIndex = 8;
+            lblCurso.Text = "Desarrollo de Interfaces · DAM";
+            lblCurso.Click += label2_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(lblCurso);
             Controls.Add(btnClean);
             Controls.Add(lblResultado);
             Controls.Add(btnAceptar);
@@ -125,5 +138,6 @@
         private Button btnAceptar;
         private Label lblResultado;
         private Button btnClean;
+        private Label lblCurso;
     }
 }
