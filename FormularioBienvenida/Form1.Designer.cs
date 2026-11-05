@@ -104,9 +104,9 @@
             lblCurso.Font = new Font("Segoe UI", 18F, FontStyle.Bold);
             lblCurso.Location = new Point(140, 26);
             lblCurso.Name = "lblCurso";
-            lblCurso.Size = new Size(368, 32);
+            lblCurso.Size = new Size(382, 32);
             lblCurso.TabIndex = 8;
-            lblCurso.Text = "Desarrollo de Interfaces · DAM";
+            lblCurso.Text = "Desarrollo de Interfaces · 2DAM";
             lblCurso.Click += label2_Click;
             // 
             // Form1
